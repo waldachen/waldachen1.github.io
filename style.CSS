@@ -1,0 +1,131 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color:#a4c3b2; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #713da1 ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: darkgreen;
+  text-indent: 3em;
+  margin: 50px;
+}
+h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+
+.stinky{
+  margin-top: 0px;
+  .row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 2px;
+}
+
+}
+
+.nextto{
+  display: inline-block;
+  width: 30%;
+  margin-top: auto;
+}
+
+#factGenerator{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* STYLE IMAGES */
+.me{
+  border: 4px solid white;
+  image-: center;
+  max-width: 25%;
+  max-height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 2px;
+}
+.center{
+  display: inline;
+  max-width: 75%;
+  max-height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* STYLE NAV BAR */
+
+/* just the background & layout*/
+ul{
+  background-color: #d8ddef;
+  text-align: center;
+  padding: 20px;
+  list-style-type: none;
+}
+/* list to make it side by side */
+li{
+  display: inline;
+}
+/* text itself */
+li a{
+  color: #45b69c;
+  padding: 1em;
+}
+/* hover over color and other stuff for nav bar */
+li a:hover{
+  background-color: #a0a4b86b;
+  padding:1em;
+}
+/* STYLE BUTTONS */
+#myButton{
+  margin-left: 47%;
+  padding: 2px;
+}
+/* ADD MORE! */
+
+#fact{
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 60px;
+}
